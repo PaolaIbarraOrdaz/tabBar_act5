@@ -42,6 +42,8 @@ class _MyHomePageState extends State<MyHomePage> {
             tabs: [
               Tab(icon: Icon(Icons.home)),
               Tab(icon: Icon(Icons.account_circle)),
+              Tab(icon: Icon(Icons.hdr_plus)),
+              Tab(icon: Icon(Icons.card_giftcard)),
               Tab(icon: Icon(Icons.favorite)),
               Tab(icon: Icon(Icons.settings)),
             ],
@@ -53,6 +55,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Icon(Icons.home, size: 350),
             Icon(Icons.account_circle, size: 350),
+            Icon(Icons.hdr_plus, size: 350),
+            Icon(Icons.card_giftcard, size: 350),
             Icon(Icons.favorite, size: 350),
             Icon(Icons.settings, size: 350),
           ],
